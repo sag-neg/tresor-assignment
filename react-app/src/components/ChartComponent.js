@@ -21,7 +21,7 @@ export default class ChartComponent extends React.Component {
         this.arryTransform.bind(this);
     }
    componentDidMount() {
-        fetch('http://localhost:3000/').then( result => {
+        fetch('http://localhost:3099/').then( result => {
             return result.json();
         }).then(result => {
             this.setState({ input: result}, () => {

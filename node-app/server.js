@@ -7,7 +7,7 @@ const cors = require('cors')
 
 const app = express();
 app.use(cors());
-const port = 3000;
+const port = 3099;
 const data = fs.readFileSync(path.join(__dirname, 'data/Data.csv'), { encoding: 'utf8' });
 const options = {
   delimiter: ',',
