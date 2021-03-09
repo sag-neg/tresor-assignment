@@ -1,13 +1,12 @@
 # tresor-assignment
 
 ## node-app : setup instruction
-On root directory, run npm i
-run "node server.js"
-it'll run the API on 3000
+1. On root directory, run npm i
+2. run "node server.js"
+
 
 ## react-app : setup instruction
-On root directory, run "npm i"
-run "npm start"
-it'll run the API on 3001
+1. On root directory, run "npm i"
+2. run "npm start"
 
 Both apps should be open and running
