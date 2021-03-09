@@ -1,0 +1,11 @@
+#app-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 2rem;
+}
+
+#dropdown {
+    width: 17%;
+    margin-bottom: 20px;
+}
